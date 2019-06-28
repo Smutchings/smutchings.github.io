@@ -20,7 +20,7 @@ http://www.samhutchings.co/img/2019-05-01-Design-is-iteration/1-1.jpeg
 http://www.samhutchings.co/img/2019-05-01-Design-is-iteration/1-2.jpeg
 {%- endcapture -%}
 
-{% include carousel.html %}
+{% include elements/carousel.html %}
 
 In the last three images, you can see the evolution the artboards for the exhibition undertook. From a plain background with way too much white space, to an appealing Pastel Terracotta background with grid-aligned elements creating a coherent and enjoyable experience. 
 
