@@ -7,18 +7,13 @@ weight: 3
 
 # **About Me**
 
-Hi, I am **{{ site.author.name }}**.<br>
+Hi I am **{{ site.author.name }}**,<br>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 
-I've had many jobs over the last 15 years. From golf course greenskeeper to lead copywriter. But, for the last few years, I've worked hard to become a Designer and Artist, focussing on the human condition.
-
-As a Designer, I believe in the holistic application of the Design Process to understand and resolve problems facing people everyday.
-
-As an Artist, I look to understand the Human condition, and my own existence, through digital and physical art.
-
-<!-- <div class="row">
+<div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
 {% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div> -->
+</div>
 
 <div class="row">
 {% include about/timeline.html %}
