@@ -71,7 +71,7 @@ Once the material - 5mm Foamex - was decided on, it was time to design the graph
 /img/lpa-exhibit/exhibition.jpeg
 {%- endcapture -%}
 
-{% include carousel.html %}
+{% include elements/carousel.html %}
 
 ## Window Posters
 A0 window posters would provide the main signage for the event space itself, helping to draw in passers-by as they shopped on the main high street in Folkestone. One of these posters, printer in portrait, was an enlarged and repurposed version of the A5 flyer that had been given out before the event.

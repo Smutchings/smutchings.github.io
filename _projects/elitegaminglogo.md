@@ -20,7 +20,7 @@ Initial ideas revolved around the meeple – a famous icon in the world of board
 
 ### Competing Logos
 
-{% include figure.html image="/img/elite-gaming-logo/eliteGamingCompetition.png" caption="An image of competing logos from other local gaming stores." %}
+{% include elements/figure.html image="/img/elite-gaming-logo/eliteGamingCompetition.png" caption="An image of competing logos from other local gaming stores." %}
 
 With other stores in the local area, there were plenty of logos to consider and work against in the market. Above are a selection of the logos used in the local gaming market by stores.
 
@@ -28,7 +28,7 @@ With other stores in the local area, there were plenty of logos to consider and 
 
 ### The Final Logo
 
-{% include figure.html image="/img/elite-gaming-logo/eliteGamingLogo.png" caption="The Elite Gaming EG Dice logo with accompanying letters in black."%}
+{% include elements/figure.html image="/img/elite-gaming-logo/eliteGamingLogo.png" caption="The Elite Gaming EG Dice logo with accompanying letters in black."%}
 
 The final logo combines the EG dice device alongside the words “Elite Gaming” set in the Whitney font. The dice provide a visual metaphor and relation to the board gaming hobby, with dice perhaps being the most recognised and famous part of tabletop gaming, whilst allowing for the EG initials to be shown on their faces.
 
@@ -38,9 +38,9 @@ The monochrome nature of the logo means that it works well in a variety of envir
 
 Here are some pictures of the logo in use.
 
-{% include figure.html image="/img/elite-gaming-logo/eliteGamingInStore.jpeg" caption="The new logo stands proud in the store." %}
+{% include elements/figure.html image="/img/elite-gaming-logo/eliteGamingInStore.jpeg" caption="The new logo stands proud in the store." %}
 
-{% include figure.html image="/img/elite-gaming-logo/eliteGamingShelves.jpeg" caption="The new logo design on the old shelves." %}
+{% include elements/figure.html image="/img/elite-gaming-logo/eliteGamingShelves.jpeg" caption="The new logo design on the old shelves." %}
 
 Whilst it is currently set against the gaudy interior of the previous store and its colour scheme, the new logo gives the shop the refined feel that the new owner is looking for, whilst being designed purposefully for use in the store, on posters, and on receipts.
 
