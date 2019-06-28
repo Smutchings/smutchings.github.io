@@ -2,7 +2,7 @@
 title: From Suicide to Student - My Mental Health Journey
 tags: [Mental Health]
 style: fill
-color: danger
+color: dark
 description: For Mental Health Awareness Week, a look back at the last few years of my Mental Health journey.
 ---
 

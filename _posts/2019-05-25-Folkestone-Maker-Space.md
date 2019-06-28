@@ -2,7 +2,7 @@
 title: Folkestone Maker Space
 tags: [Design, Business, Education, Thought Piece]
 style: fill
-color: info
+color: warning
 description: Folkestone prides itself on its creative rebirth. So, why are there no spaces where the public can hone and express themselves through making?
 ---
 
