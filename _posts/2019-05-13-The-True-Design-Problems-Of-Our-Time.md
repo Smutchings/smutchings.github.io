@@ -1,7 +1,7 @@
 ---
 title: The True Design Problems of Our Time
 tags: [Design, Thought]
-style: 
+style: fill
 color: info
 description: What are the true design problems of our time? And are we focussing on the right ones? It turns out, probably not.
 ---

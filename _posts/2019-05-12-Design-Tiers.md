@@ -1,7 +1,7 @@
 ---
 title: Is the future of Design tiered?
 tags: [Design, Thought]
-style: 
+style: fill
 color: success
 description: With conversations around whether Designers should "x" abound. Is there an argument for a tiered approach to Design?
 ---

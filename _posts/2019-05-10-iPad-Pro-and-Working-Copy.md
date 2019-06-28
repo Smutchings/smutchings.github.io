@@ -1,7 +1,7 @@
 ---
 title: iPad Pro and Working Copy
 tags: [iPad, GitHub, Productivity]
-style: 
+style: fill
 color: info
 description: The power of the iPad Pro and Working Copy make it trivial to work with GitHub, wherever you are.
 ---
