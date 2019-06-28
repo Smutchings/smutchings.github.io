@@ -21,5 +21,5 @@ As an Artist, I look to understand the Human condition, and my own existence, th
 </div> -->
 
 <div class="row">
-{% include timeline.html %}
+{% include about/timeline.html %}
 </div>
