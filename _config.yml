@@ -1,23 +1,23 @@
 ### Site Settings ###
-	title               : Sam Hutchings
-	description         : >-                               # >- means to ignore newlines until "url:"
-	                      Designer and Artist on a mission to create a better world.
-	url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
-	baseurl             : "https://www.samhutchings.co"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
-	repository          : Smutchings/smutchings.github.io    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
-	remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
-	
-	### Author Info ###
-	author:
-	  name              : Sam Hutchings
-	  image             : https://pbs.twimg.com/profile_images/1095437940442972160/ykDY_uZC_400x400.jpg
-	# dribbble          : Smutchings
-	  email             : hi@samhutchings.co
-	  github            : smutchings
-	# instagram         : smutchings
-	  linkedin          : smutchings
-	  medium            : smutchings
-	  twitter           : smutchings
+title               : Sam Hutchings
+description         : >-                               # >- means to ignore newlines until "url:"
+                      Designer and Artist on a mission to create a better world.
+url                 : ""                               # base hostname & protocol for your site (e.g. http://example.com)
+baseurl             : "https://www.samhutchings.co"                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
+repository          : Smutchings/smutchings.github.io    # repository metadata on GitHub Pages [know more at https://help.github.com/en/articles/repository-metadata-on-github-pages]
+remote_theme       : YoussefRaafatNasry/portfolYOU    # uncomment this if you are using it as a remote theme
+
+### Author Info ###
+author:
+  name              : Sam Hutchings
+  image             : https://pbs.twimg.com/profile_images/1095437940442972160/ykDY_uZC_400x400.jpg
+# dribbble          : Smutchings
+  email             : hi@samhutchings.co
+  github            : smutchings
+# instagram         : smutchings
+  linkedin          : smutchings
+  medium            : smutchings
+  twitter           : smutchings
 
 
 ### Pagination ###
