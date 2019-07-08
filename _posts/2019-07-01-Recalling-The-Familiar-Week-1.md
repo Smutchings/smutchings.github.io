@@ -1,8 +1,8 @@
 ---
-title: Recalling The Familiar: Weeks 1 and 2
+title: Recalling The Familiar - Weeks 1 and 2
 tags: [Internship]
 style: fill
-color: info
+color: dark
 description: This Summer, I'm working with The Familiar. Here's the story of that internship so far.
 ---
 
