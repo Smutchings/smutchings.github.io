@@ -101,4 +101,6 @@ The opening evening served as a great opportunity for me to present my work, ans
 # Public and Client Reaction
 Public reception of the exhibition was incredibly positive during the time it was open. Visitors loved the boards, the story we told through the design, as well as the souvenir badges and brochures. Some visitors even wrote about their love for the exhibit in the guestbook.
 
+<center><iframe src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFLPFolkestone%2Fposts%2F2248340588749572&width=500" width="500" height="631" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe></center>
+
 The client - the Friends of the Leas Pavilion - were incredibly happy with the quality of work delivered, the timescale in which it was done, and the value for money I and The Edge provided. Whilst the final deliverables expanded from the original scope of the project, as is often the case, this was done without missing deadlines or having a mad rush towards the end of the project. This was mainly due to the continued use of WhatsApp during the project to keep in real-time communication, allowing for feedback and update meetings to run smoothly, when needed.
