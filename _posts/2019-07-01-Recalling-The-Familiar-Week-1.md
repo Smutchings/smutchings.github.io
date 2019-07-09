@@ -31,7 +31,7 @@ Friday, I worked from home. In the morning, I cut together a short video to go a
 
 I also collated and cropped images for testimonials to go on the website, from approved images we were given permission to use. 
 
-![Using LumaFusion on my iPad to create the hero video](/img/2019-07-01-Recalling-The-Familiar-Week-1/photo.jpeg)
+![Using LumaFusion on my iPad to create the hero video](/img/2019-07-01-Recalling-The-Familiar-Week-1/lumaFusion.jpeg)
 
 Tools Used: LumaFusion and Affinity Designer for iPad Pro
 
@@ -40,7 +40,9 @@ Tools Used: LumaFusion and Affinity Designer for iPad Pro
 ### Monday
 On Monday Morning, Martin and I discussed the strategy for The Familiar and the deliverables we're going to need to deliver for the official launch of the company. The first stage of this was the creation of business cards for Martin to take to an event the following week.
 
-After spending some time reading and understanding the style guide for The Familiar, I spent the afternoon in Affinity Designer creating the business cards. 
+After spending some time reading and understanding the style guide for The Familiar, I spent the afternoon in Affinity Designer creating the business card design.
+
+![Printed The Familiar Business Card](/img/2019-07-01-Recalling-The-Familiar-Week-1/businessCard.jpeg)
 
 Tools used: Affinity Designer, Whiteboard & Pen.
 
