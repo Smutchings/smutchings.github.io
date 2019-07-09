@@ -39,4 +39,4 @@ The Reichstag was badly damaged in fighting during the Second World War, and was
 #### U-Bahn
 The U-Bahn and S-Bahn connect the people of Berlin to their city. They act like arteries, carrying passengers throughout the urban sprawl of the city. The modern yellow trains have an amazing design and colouration that makes them stand out against the darkness they travel through. With my love of Berlin and trains, I couldn't leave the U-Bahn out of this chapter.
 
-{% include elements/figure.html image="/img/berlin-portraits/u-barn-zug.png" caption="The U-Bahn Print" %}
+{% include elements/figure.html image="/img/berlin-portraits/u-bahn-zug.png" caption="The U-Bahn Print" %}
