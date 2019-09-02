@@ -12,10 +12,10 @@ remote_theme        : YoussefRaafatNasry/portfolYOU    # uncomment this if you a
 author:
   name              : Sam Hutchings
   image             : /img/homeHero.png
-# dribbble          : Smutchings
+  dribbble          : Smutchings
   email             : hi@samhutchings.co
   github            : smutchings
-# instagram         : smutchings
+  instagram         : smutchings
   linkedin          : smutchings
   medium            : smutchings
   twitter           : smutchings
