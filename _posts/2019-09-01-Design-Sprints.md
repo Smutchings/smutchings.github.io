@@ -1,6 +1,6 @@
 ---
 title: Design Sprints
-tags: [Design, Research, Iteration]
+tags: [Design, Methodology, Sprints]
 style: fill
 color: info
 description: Design Sprints are a great way to come up with, refine and prototype solutions to problems in a short period of time - usually 3-5 days.
