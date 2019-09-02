@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Sam Hutchings
 description         : >-                               # >- means to ignore newlines until "url:"
-                      Designer.
+                      Designer.<br>
                       Currently working at The Familiar.
 url                 : "https://samhutchings.co"                               # base hostname & protocol for your site (e.g. http://example.com)
 baseurl             : ""                    # subpath of your site (e.g. /blog) [IMPORTANT: use "" if your are hosting at https://username.github.io directly]
