@@ -34,12 +34,10 @@ collections:
   projects:
     output: true
     permalink: /projects/:name
-    layout: "page"
 
   art:
     output: true
     permalink: /art/:name
-    layout: "page"
 
 
 ### Defaults for collections ###
