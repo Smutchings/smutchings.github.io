@@ -35,7 +35,7 @@ collections:
     output: true
     permalink: /projects/:name
 
-  artwork:
+  art:
     output: true
     permalink: /art/:name
 
