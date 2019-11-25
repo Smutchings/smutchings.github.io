@@ -3,6 +3,7 @@ name: City Portraits Chapter One - Berlin
 tools: [Sketch, Spray Paint, Vinyl]
 image: /img/berlinHero.png
 description: Over the years, a selection of cities have inspired me. The City Portraits celebrates these cities. We start with Berlin.
+type: page
 ---
 
 Love, they say, happens at first sight. As soon as your eyes lock on to the view, they understand what your heart wants. And, no matter what you do, you never forget that moment.
