@@ -17,12 +17,12 @@ My Space Series are all created using Procreate.app on the iPad Pro with Apple P
 
 {% include elements/figure.html image="/img/art/space/Eccentric.png" caption="Eccentric Rotation of a Gas Giant" %}
 
-{% include elements/figure.html image="img/art/space/GasGiant.png" caption="Cloudy Blue gas Giant" %}
+{% include elements/figure.html image="/img/art/space/GasGiant.png" caption="Cloudy Blue gas Giant" %}
 
-{% include elements/figure.html image="img/art/space/LonelyDwarf.png" caption="A Lonely Dwarf passes a star" %}
+{% include elements/figure.html image="/img/art/space/LonelyDwarf.png" caption="A Lonely Dwarf passes a star" %}
 
-{% include elements/figure.html image="img/art/space/Moonrise.png" caption="Moonrise over an unknown land" %}
+{% include elements/figure.html image="/img/art/space/Moonrise.png" caption="Moonrise over an unknown land" %}
 
-{% include elements/figure.html image="img/art/space/PinkDwarf.png" caption="Pink Dwarf star" %}
+{% include elements/figure.html image="/img/art/space/PinkDwarf.png" caption="Pink Dwarf star" %}
 
-{% include elements/figure.html image="img/art/space/VerdantGreen.png" caption="A verdant green moon" %}
+{% include elements/figure.html image="/img/art/space/VerdantGreen.png" caption="A verdant green moon" %}
