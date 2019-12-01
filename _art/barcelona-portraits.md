@@ -4,7 +4,7 @@ tools: [3D Design, 3D Printing, Iconography]
 image: /img/barcelonaHero.png
 description: I called Barcelona home for two years of my life, from Feb 2014 to Feb 2016. During this time, it left an impression on me. One I would turn into art.
 layout: page
---
+---
 
 I moved to Barcelona in February 2014 to work for Typeform, a startup that, at the time of my moving there, was about to come out of Beta and was looking for someone to tell their story. Whilst my time at Typeform would be slightly turbulent, and end just 6 months later, my time at Barcelona left an impression on me that I had to, when I had the chance, make into art.
 
@@ -20,7 +20,7 @@ With that came the idea for the second chapter of my City Portraits series - 3D-
 
 The chosen designs for the panot tiles were:
 
-- Torre Glòries
+- Torre Glòriesbarcelona-portraits.md
 - Arc de Triomf
 - Sagrada Familia
 - La Padrera
@@ -29,7 +29,7 @@ The final selection was made up of designs that inspired me, but also with one o
 
 ### Torre Glòries
 
-{% include elements/figure.html image="/img/barcelona-portraits/torreglories.png" caption="Torre Glòries panot tile design" %}
+{% include elements/figure.html image="/img/barcelona-portraits/torreglories.jpeg" caption="Torre Glòries panot tile design" %}
 
 
 ### Arc de Triomf
@@ -38,7 +38,7 @@ The final selection was made up of designs that inspired me, but also with one o
 
 ### Sagrada Familia
 
-{% include elements/figure.html image="/img/barcelona-portraits/sagradafamilia.png" caption="Sagrada Familia panot tile design" %}
+{% include elements/figure.html image="/img/barcelona-portraits/sagradafamilia.jpeg" caption="Sagrada Familia panot tile design" %}
 
 ## The Process and results
 
