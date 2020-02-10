@@ -13,7 +13,7 @@ For some, January 1st is the time for setting goals for the year ahead. These "r
 
 In an attempt to deviate front his norm, I instead set and adjust goals on an ongoing basis. And I try to create goals where I can be supported in their implementation, so as to serve in their success. I've also set up this web page to be a living document where I can share my goals and their progress.
 
-This page was last updated on {{ page.lastUpdated}}. It will be reviews on {{ page.reviewDate }}.
+This page was last updated on {{ page.lastUpdated}}. It will be reviewed on {{ page.reviewDate }}.
 
 ## Professional and Financial Goals
 
