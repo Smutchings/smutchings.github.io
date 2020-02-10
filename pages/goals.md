@@ -17,6 +17,8 @@ This page was last updated on {{ page.lastUpdated}}. It will be reviews on {{ pa
 
 ## Professional and Financial Goals
 
+My current professional and financials goals are:
+
 ### Transition to full-time work
 My major professional goal of this year is to transition back to a full-time working schedule.
 
@@ -38,13 +40,17 @@ This year, I plan to run at least FIVE Design Sprints with The Familiar. If you'
 
 ## Health and Well-being Goals
 
+My current health and well-being goals are:
+
 ### Weight management programme
 I've taken steps to start a weight management programme that focuses on exercise, diet, and mental wellbeing.
 
 ## Life-Long Learning and Ongoing Development Goals
 
+My current life-long learning and ongoing development goals are:
+
 ### Transition to part-time Open University
 I accidentally chose 120 credits for my first year of Open University, instead of the normal 60 credits. This means that I've been doing a full-time equivalent degree since October. Starting with the Second Stage and second year of my degree, I will reduce my commitment to 60 units per year, allowing me to transition to full-time employment.
 
 ### Become a Mental Health First Aider
-Mental health problems are increasingly present in the world. There are now courses teaching how to be a mental health first aider, someone who can help in the first instance of a mental health issue, the same as a traditional first aider would attend to a cut. 
+Mental health problems are increasingly present in the world. There are now courses teaching how to be a mental health first aider, someone who can help in the first instance of a mental health issue, the same as a traditional first aider would attend to a cut.
