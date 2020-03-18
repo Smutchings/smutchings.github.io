@@ -36,7 +36,7 @@ I have short-term debts from previous years living on very limited budgets. I ho
 Total to be paid: £5,712.09
 
 ### Run Five Design Sprints with The Familiar
-This year, I plan to run at least FIVE Design Sprints with The Familiar. If you're company or app could benefit from solving a big problem in a short timer frame, let me know and help me reach this target.
+This year, I plan to run at least FIVE Design Sprints with The Familiar. If your company or app could benefit from solving a big problem in a short time frame, let me know and help me reach this target.
 
 Design Sprints Run in 2020: 0
 
