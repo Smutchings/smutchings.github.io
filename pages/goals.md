@@ -3,8 +3,8 @@ layout: page
 title: Goals
 permalink: /goals/
 weight: 3
-lastUpdated: February 2nd 2020
-reviewDate: March 2nd 2020
+lastUpdated: March 18th 2020
+reviewDate: April 18th 2020
 ---
 
 # My Goals
@@ -29,14 +29,16 @@ For much of the last few years, I've lived in less than £500 per month. This ye
 I have short-term debts from previous years living on very limited budgets. I hope to have paid these off by the end of 2020. These debts are:
 
 - Family Loan (£900 remaining)
-- Credit Card (£1,709.57 remaining)
+- Credit Card (£1,685.42 remaining)
 - Student Overdraft (£1,500 remaining)
-- PayPal Finance (£1,770.41 remaining)
+- PayPal Finance (£1,626.67 remaining)
 
-Total to be paid: £5,880
+Total to be paid: £5,712.09
 
 ### Run Five Design Sprints with The Familiar
 This year, I plan to run at least FIVE Design Sprints with The Familiar. If you're company or app could benefit from solving a big problem in a short timer frame, let me know and help me reach this target.
+
+Design Sprints Run in 2020: 0
 
 ## Health and Well-being Goals
 
@@ -44,6 +46,8 @@ My current health and well-being goals are:
 
 ### Weight management programme
 I've taken steps to start a weight management programme that focuses on exercise, diet, and mental wellbeing.
+
+This programme has now started.
 
 ## Life-Long Learning and Ongoing Development Goals
 
