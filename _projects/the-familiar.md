@@ -1,5 +1,5 @@
 ---
-name: thefamiliar.tech Case Studies
+name: thefamiliar.tech
 tools: [Sketch, HTML, CSS]
 image: /img/thefamiliarhero.png
 description: A considered approach to displaying The Familiar's existing work through Case Studies.
