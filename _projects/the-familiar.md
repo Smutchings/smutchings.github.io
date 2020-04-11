@@ -13,7 +13,7 @@ Due to a sabbatical, there were only two of us working at The Familiar at the ti
 
 ## Laying the Groundwork
 
-Before the designs for the Case Studies sections could be made, we had a lot of decisions to make and questions to answer. Questions such as:
+Before the designs for the Case Studies sections could be made, we had a lot of decisions to make and questions to answer. Questions and processes such as:
 
 * Business Analysis - What’s best for the business right now? What is the priority?
 * Website Analysis - What features of our website can best help us deliver those goals?
