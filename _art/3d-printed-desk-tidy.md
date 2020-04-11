@@ -6,8 +6,10 @@ description: From idea to a physical product in a matter of hours using Shapr3D,
 layout: page
 ---
 
+# 3D Printed Desk Tidy
+
 <script src="/assets/js/stlviewer/stl_viewer.min.js"></script>
-<div id="stl_cont"></div>
+<div id="stl_cont" style="width:720px;height:720px;margin:0 auto;"></div>
 <script>
 	var stl_viewer=new StlViewer(document.getElementById("stl_cont"), { models: [ {id:0, filename:"/assets/stl/desk_tidy.stl"} ] });
 </script>
