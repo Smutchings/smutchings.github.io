@@ -35,6 +35,7 @@ I have short-term debts from previous years living on very limited budgets. I ho
 - PayPal Finance (£1,514.72 remaining)
 
 Total to be paid: £5,427.34
+
 Change since {{ page.lastUpdate}}: ⬇️ £284.75
 
 ### Run Five Design Sprints with The Familiar
