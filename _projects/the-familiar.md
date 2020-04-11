@@ -5,7 +5,7 @@ image: /img/thefamiliarhero.png
 description: A considered approach to displaying The Familiar's existing work through Case Studies.
 ---
 
-# thefamiliar.tech
+# thefamiliar.tech Case Studies
 
 When I joined [The Familiar Ltd](https://www.thefamiliar.tech) in July 2019, one of the first tasks I was given was to help bring the stories of our work to life through the addition of a [Case Studies section](https://www.thefamiliar.tech/case-studies) to the website.
 
