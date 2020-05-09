@@ -1,5 +1,5 @@
 ---
-title: Quantity over Quality. The Secret to Great Ideas. (Talk)
+title: Quantity over Quality. The Secret to Great Ideas.
 tags: [Design, Methodology, Talks, Ideas]
 style: fill
 color: info
