@@ -3,9 +3,9 @@ layout: page
 title: Goals
 permalink: /goals/
 weight: 3
-lastUpdate: March 18th 2020
-latestUpdate: April 11th 2020
-reviewDate: May 18th 2020
+lastUpdate: April 11th 2020
+latestUpdate: May 26th 2020
+reviewDate: June 18th 2020
 ---
 
 # My Goals
@@ -21,22 +21,25 @@ This page was last updated on {{ page.latestUpdate}}. It will be reviewed on {{ 
 My current professional and financials goals are:
 
 ### Transition to full-time work
-My major professional goal of this year is to transition back to a full-time working schedule. I am currently working 3-4 days a week at [The Familiar Ltd](https://www.thefamiliar.tech).
+My major professional goal of this year is to transition back to a full-time working schedule. I am currently working 3 days a week at [The Familiar Ltd](https://www.thefamiliar.tech).
 
 ### 2020/21 Earnings of over £30,000
-For much of the last few years, I've lived in less than £500 per month. This year, I would like to get my income back on track, with the goal to earn over £30,000 in the 2020/21 financial year. 
+For much of the last few years, I've lived in less than £500 per month. This year, I would like to get my income back on track, with the goal to earn over £30,000 in the 2020/21 financial year.
+
+Salary as of {{ page.lastUpdate }}: £13,260
+FTE: £22,100
 
 ### Pay Off My Short-Term Debts
 I have short-term debts from previous years living on very limited budgets. I hope to have paid these off by the end of 2020. These debts are:
 
-- Family Loan (£750 remaining)
-- Credit Card (£1,662.62 remaining)
-- Student Overdraft (£1,500 remaining)
-- PayPal Finance (£1,514.72 remaining)
+- Family Loan (£750 remaining) ⏸
+- Credit Card (£1,662.62 £1,139.45 remaining) ⬇️
+- Student Overdraft (£1,500 remaining) ⏸
+- PayPal Finance (£1,507.93 remaining) ⬇️
 
-Total to be paid: £5,427.34
+Total to be paid: £4,897.38
 
-Change since {{ page.lastUpdate}}: ⬇️ £284.75
+Change since {{ page.lastUpdate}}: ⬇️ £529.96
 
 ### Run Five Design Sprints with The Familiar
 This year, I plan to run at least FIVE Design Sprints with The Familiar. If your company or app could benefit from solving a big problem in a short time frame, let me know and help me reach this target.
@@ -59,7 +62,9 @@ My current life-long learning and ongoing development goals are:
 ### Transition to part-time Open University
 I accidentally chose 120 credits for my first year of Open University, instead of the normal 60 credits. This means that I've been doing a full-time equivalent degree since October. Starting with the Second Stage and second year of my degree, I will reduce my commitment to 60 units per year, allowing me to transition to full-time employment.
 
-As of May 2020, this transition will be complete.
+<strike>As of May 2020, this transition will be complete.</strike>
+
+This transition is now complete.
 
 ### Become a Mental Health First Aider
 Mental health problems are increasingly present in the world. There are now courses teaching how to be a mental health first aider, someone who can help in the first instance of a mental health issue, the same as a traditional first aider would attend to a cut.
