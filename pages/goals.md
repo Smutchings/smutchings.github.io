@@ -37,7 +37,7 @@ I have short-term debts from previous years living on very limited budgets. I ho
 - Student Overdraft (£1,500 remaining) ⏸
 - PayPal Finance (£1,507.93 remaining) ⬇️
 
-Total to be paid: £4,897.38
+Total to be paid: £4,897.38 ⬇️
 
 Change since {{ page.lastUpdate}}: ⬇️ £529.96
 
