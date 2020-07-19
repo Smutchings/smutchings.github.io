@@ -60,3 +60,4 @@ exclude:
 ### Plugins
 plugins:
   - jemoji
+  - jekyll-paginate
