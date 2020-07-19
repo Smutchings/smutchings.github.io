@@ -28,7 +28,7 @@ Success of the Z-House project is defined by 8 design parameters. Seven of these
 5. The building must offer a comfortable lifestyle for 1 or 2 occupants.
 6. Internal space must be flexible, allowing for privacy and dedicated cooking space.
 7. The building should aim to be priced around 5x the average salary.
-8. The building must add more to its environment than it takes away. 
+8. The building must add more to its environment than it takes away.
 
 These parameters work to define the eventual solution as well as work as constraints during the design process.
 
