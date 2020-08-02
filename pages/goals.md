@@ -3,9 +3,9 @@ layout: page
 title: Goals
 permalink: /goals/
 weight: 3
-lastUpdate: April 11th 2020
-latestUpdate: May 26th 2020
-reviewDate: June 18th 2020
+lastUpdate: May 26th 2020
+latestUpdate: Aug 2nd 2020
+reviewDate: Sep 2nd 2020
 ---
 
 # My Goals
@@ -33,13 +33,12 @@ FTE: £22,100
 I have short-term debts from previous years living on very limited budgets. I hope to have paid these off by the end of 2020. These debts are:
 
 - Family Loan (£750 remaining) ⏸
-- Credit Card (£1,662.62 £1,139.45 remaining) ⬇️
+- Credit Card (£1,077.74 remaining) ⬇️
 - Student Overdraft (£1,500 remaining) ⏸
-- PayPal Finance (£1,507.93 remaining) ⬇️
+- PayPal Finance (£1,291.81 remaining) ⬇️
 
-Total to be paid: £4,897.38 ⬇️
+Total to be paid: £4,619.55 ⬇️
 
-Change since {{ page.lastUpdate}}: ⬇️ £529.96
 
 ### Run Five Design Sprints with The Familiar
 This year, I plan to run at least FIVE Design Sprints with The Familiar. If your company or app could benefit from solving a big problem in a short time frame, let me know and help me reach this target.
