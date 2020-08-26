@@ -1,4 +1,5 @@
-# A sample Gemfile
+# GitHub Pages Gemfile. Maintained by Sam Hutchings.
+# Based on https://pages.github.com/versions/
 source "https://rubygems.org"
 
 # gem "rails"
