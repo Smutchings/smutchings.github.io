@@ -1,0 +1,294 @@
+<html>
+<head>
+  <title>MTG Commander Overlay - Admin</title>
+  <link rel="stylesheet" type="text/css" href="css/admin.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Hind|Overpass+Mono" rel="stylesheet">
+
+  <!-- Set Up for Apple Web Application -->
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="MTGCO Admin">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, user-scalable=no">
+
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+  <script>
+
+    // Initial Player Variables
+
+    var player1Commander;
+    var player2Commander;
+    var player3Commander;
+    var player4Commander;
+
+    var player1Life = 40;
+    var player2Life = 40;
+    var player3Life = 40;
+    var player4Life = 40;
+
+    var player1Name;
+    var player2Name;
+    var player3Name;
+    var player4Name;
+
+    // Firebase Setup
+
+    var config = {
+      apiKey: "AIzaSyAwvq7yjYru6jOhGzKWtyFCVUGyG3xr5Aw",
+      authDomain: "elitegamingoverlay.firebaseapp.com",
+      databaseURL: "https://elitegamingoverlay.firebaseio.com",
+      storageBucket: "",
+      messagingSenderId: "568794903529"
+    };
+    firebase.initializeApp(config);
+
+    // Database Setup
+
+    var database = firebase.database();
+
+    // Player 1
+    firebase.database().ref('/players/0/commander/').on('value', function(snapshot) {
+      player1Commander = snapshot.val()
+    });
+
+    firebase.database().ref('/players/0/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player1Life')[0].innerHTML = snapshot.val()
+      player1Life = snapshot.val()
+    });
+
+    firebase.database().ref('/players/0/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player1Name')[0].innerHTML = snapshot.val()
+      player1Name = snapshot.val()
+    });
+
+    //Player 2
+    firebase.database().ref('/players/1/commander/').on('value', function(snapshot) {
+      player2Commander = snapshot.val()
+     });
+
+    firebase.database().ref('/players/1/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player2Life')[0].innerHTML = snapshot.val()
+      player2Life = snapshot.val()
+    });
+
+    firebase.database().ref('/players/1/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player2Name')[0].innerHTML = snapshot.val()
+      player2Name = snapshot.val()
+    });
+
+
+    //Player 3
+    firebase.database().ref('/players/2/commander/').on('value', function(snapshot) {
+      player3Commander = snapshot.val()
+    });
+
+    firebase.database().ref('/players/2/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player3Life')[0].innerHTML = snapshot.val()
+      player3Life = snapshot.val()
+    });
+
+    firebase.database().ref('/players/2/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player3Name')[0].innerHTML = snapshot.val()
+      player3Name = snapshot.val()
+    });
+
+    //Player 4
+    firebase.database().ref('/players/3/commander/').on('value', function(snapshot) {
+      player4Commander = snapshot.val()
+    });
+
+    firebase.database().ref('/players/3/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player4Life')[0].innerHTML = snapshot.val()
+      player4Life = snapshot.val()
+    });
+
+    firebase.database().ref('/players/3/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player4Name')[0].innerHTML = snapshot.val()
+      player4Name = snapshot.val()
+    });
+
+    function setPlayer1Info() {
+      var playerName = prompt("Please enter player name:", player1Name);
+      if (playerName == null || playerName == "") {
+        player1Name = "Player 1";
+      } else {
+        player1Name = playerName;
+      }
+      firebase.database().ref('/players/0/').update({name : player1Name});
+
+      var commanderName = prompt("Please enter commander name:", player1Commander);
+      if (commanderName == null || commanderName == "") {
+        player1Commander = "Commander";
+      } else {
+        player1Commander = commanderName;
+      }
+      firebase.database().ref('/players/0/').update({commander : player1Commander});
+    }
+
+    function setPlayer2Info() {
+      var playerName = prompt("Please enter player name:", player2Name);
+      if (playerName == null || playerName == "") {
+        player2Name = "Player 2";
+      } else {
+        player2Name = playerName;
+      }
+      firebase.database().ref('/players/1/').update({name : player2Name});
+
+      var commanderName = prompt("Please enter commander name:", player2Commander);
+      if (commanderName == null || commanderName == "") {
+        player2Commander = "Commander";
+      } else {
+        player2Commander = commanderName;
+      }
+      firebase.database().ref('/players/1/').update({commander : player2Commander});
+    }
+
+    function setPlayer3Info() {
+      var playerName = prompt("Please enter player name:", player3Name);
+      if (playerName == null || playerName == "") {
+        player3Name = "Player 3";
+      } else {
+        player3Name = playerName;
+      }
+      firebase.database().ref('/players/2/').update({name : player3Name});
+
+      var commanderName = prompt("Please enter commander name:", player3Commander);
+      if (commanderName == null || commanderName == "") {
+        player3Commander = "Commander";
+      } else {
+        player3Commander = commanderName;
+      }
+      firebase.database().ref('/players/2/').update({commander : player3Commander});
+    }
+
+    function setPlayer4Info() {
+      var playerName = prompt("Please enter player name:", player4Name);
+      if (playerName == null || playerName == "") {
+        player4Name = "Player 4";
+      } else {
+        player4Name = playerName;
+      }
+      firebase.database().ref('/players/3/').update({name : player4Name});
+
+      var commanderName = prompt("Please enter commander name:", player4Commander);
+      if (commanderName == null || commanderName == "") {
+        player4Commander = "Commander";
+      } else {
+        player4Commander = commanderName;
+      }
+      firebase.database().ref('/players/3/').update({commander : player4Commander});
+    }
+
+    function setPlayer1Life() {
+      var playerLife = prompt("Please enter player life:", player1Life);
+      if (playerLife == null || playerLife == "") {
+        player1Life = 40;
+      } else {
+        player1Life = playerLife;
+      }
+      firebase.database().ref('/players/0/').update({life : player1Life});
+    }
+
+    function setPlayer2Life() {
+      var playerLife = prompt("Please enter player life:", player2Life);
+      if (playerLife == null || playerLife == "") {
+        player2Life = 40;
+      } else {
+        player2Life = playerLife;
+      }
+      firebase.database().ref('/players/1/').update({life : player2Life});
+    }
+
+    function setPlayer3Life() {
+      var playerLife = prompt("Please enter player life:", player3Life);
+      if (playerLife == null || playerLife == "") {
+        player3Life = 40;
+      } else {
+        player3Life = playerLife;
+      }
+      firebase.database().ref('/players/2/').update({life : player3Life});
+    }
+
+    function setPlayer4Life() {
+      var playerLife = prompt("Please enter player life:", player4Life);
+      if (playerLife == null || playerLife == "") {
+        player4Life = 40;
+      } else {
+        player4Life = playerLife;
+      }
+      firebase.database().ref('/players/3/').update({life : player4Life});
+    }
+
+    </script>
+
+</head>
+<body>
+
+  <div id="content">
+
+    <div id="player1">
+      <div class="infoRow">
+        <h2 id="player1Name" onclick="setPlayer1Info()">Player 1</h2>
+        <span class="lifeTotal" id="player1Life" onclick="setPlayer1Life()">40</span>
+      </div>
+      <div class="buttonRow">
+        <button id="player1minus5" class="button red-button" onclick="player1Life-=5; firebase.database().ref('/players/0/').update({life : player1Life});">-5</button>
+        <button id="player1minus1" class="button red-button" onclick="player1Life-=1; firebase.database().ref('/players/0/').update({life : player1Life});">-1</button>
+        <button id="player1reset" class="button yellow-button" onclick="player1Life=40; firebase.database().ref('/players/0/').update({life : player1Life});">40</button>
+        <button id="player1plus1" class="button green-button" onclick="player1Life+=1; firebase.database().ref('/players/0/').update({life : player1Life});">+1</button>
+        <button id="player1plus5" class="button green-button" onclick="player1Life+=5; firebase.database().ref('/players/0/').update({life : player1Life});">+5</button>
+      </div>
+    </div>
+
+    <div id="player2">
+      <div class="infoRow">
+        <h2 id="player2Name" onclick="setPlayer2Info()">Player 2</h2>
+        <span class="lifeTotal" id="player2Life" onclick="setPlayer2Life()">40</span>
+      </div>
+      <div class="buttonRow">
+        <button id="player2minus5" class="button red-button" onclick="player2Life-=5; firebase.database().ref('/players/1/').update({life : player2Life});">-5</button>
+        <button id="player2minus1" class="button red-button" onclick="player2Life-=1; firebase.database().ref('/players/1/').update({life : player2Life});">-1</button>
+        <button id="player2reset" class="button yellow-button" onclick="player2Life=40; firebase.database().ref('/players/1/').update({life : player2Life});">40</button>
+        <button id="player2plus1" class="button green-button" onclick="player2Life+=1; firebase.database().ref('/players/1/').update({life : player2Life});">+1</button>
+        <button id="player2plus5" class="button green-button" onclick="player2Life+=5; firebase.database().ref('/players/1/').update({life : player2Life});">+5</button>
+      </div>
+    </div>
+
+    <div id="player3">
+      <div class="infoRow">
+        <h2 id="player3Name" onclick="setPlayer3Info()">Player 3</h2>
+        <span class="lifeTotal" id="player3Life" onclick="setPlayer3Life()">40</span>
+      </div>
+      <div class="buttonRow">
+        <button id="player3minus5" class="button red-button" onclick="player3Life-=5; firebase.database().ref('/players/2/').update({life : player3Life});">-5</button>
+        <button id="player3minus1" class="button red-button" onclick="player3Life-=1; firebase.database().ref('/players/2/').update({life : player3Life});">-1</button>
+        <button id="player3reset" class="button yellow-button" onclick="player3Life=40; firebase.database().ref('/players/2/').update({life : player3Life});">40</button>
+        <button id="player3plus1" class="button green-button" onclick="player3Life+=1; firebase.database().ref('/players/2/').update({life : player3Life});">+1</button>
+        <button id="player3plus5" class="button green-button" onclick="player3Life+=5; firebase.database().ref('/players/2/').update({life : player3Life});">+5</button>
+      </div>
+    </div>
+
+    <div id="player4">
+      <div class="infoRow">
+        <h2 id="player4Name" onclick="setPlayer4Info()">Player 4</h2>
+        <span class="lifeTotal" id="player4Life" onclick="setPlayer4Life()">40</span>
+      </div>
+      <div class="buttonRow">
+        <button id="player4minus5" class="button red-button" onclick="player4Life-=5; firebase.database().ref('/players/3/').update({life : player4Life});">-5</button>
+        <button id="player4minus1" class="button red-button" onclick="player4Life-=1; firebase.database().ref('/players/3/').update({life : player4Life});">-1</button>
+        <button id="player4reset" class="button yellow-button" onclick="player4Life=40; firebase.database().ref('/players/3/').update({life : player4Life});">40</button>
+        <button id="player4plus1" class="button green-button" onclick="player4Life+=1; firebase.database().ref('/players/3/').update({life : player4Life});">+1</button>
+        <button id="player4plus5" class="button green-button" onclick="player4Life+=5; firebase.database().ref('/players/3/').update({life : player4Life});">+5</button>
+      </div>
+    </div>
+
+  </div>
+
+    <center><a href="login.html">Log In</a> | <a href="#" onclick="firebase.auth().signOut()">Log Out</a></center>
+    <center>&nbsp;</center>
+    <center><a href="http://www.samhutchings.co">Designed and built by Sam Hutchings</a></center>
+
+</body>
+</html>

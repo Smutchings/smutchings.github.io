@@ -1,0 +1,115 @@
+<html>
+<head>
+  <title>MTG Commander Overlay</title>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Bree+Serif|Hind|Overpass+Mono" rel="stylesheet">
+
+  <script src="https://www.gstatic.com/firebasejs/4.2.0/firebase.js"></script>
+
+  <script>
+    var config = {
+      apiKey: "AIzaSyAwvq7yjYru6jOhGzKWtyFCVUGyG3xr5Aw",
+      authDomain: "elitegamingoverlay.firebaseapp.com",
+      databaseURL: "https://elitegamingoverlay.firebaseio.com",
+      storageBucket: "",
+      messagingSenderId: "568794903529"
+    };
+    firebase.initializeApp(config);
+
+    var database = firebase.database();
+
+    //Player 1
+
+    firebase.database().ref('/players/0/commander/').on('value', function(snapshot) {
+      document.querySelectorAll('#player1Commander')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/0/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player1Life')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/0/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player1Name')[0].innerHTML = snapshot.val()
+    });
+
+    //Player 2
+    firebase.database().ref('/players/1/commander/').on('value', function(snapshot) {
+      document.querySelectorAll('#player2Commander')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/1/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player2Life')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/1/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player2Name')[0].innerHTML = snapshot.val()
+    });
+
+
+    //Player 3
+
+    firebase.database().ref('/players/2/commander/').on('value', function(snapshot) {
+      document.querySelectorAll('#player3Commander')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/2/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player3Life')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/2/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player3Name')[0].innerHTML = snapshot.val()
+    });
+
+    //Player 4
+
+    firebase.database().ref('/players/3/commander/').on('value', function(snapshot) {
+      document.querySelectorAll('#player4Commander')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/3/life/').on('value', function(snapshot) {
+      document.querySelectorAll('#player4Life')[0].innerHTML = snapshot.val()
+    });
+
+    firebase.database().ref('/players/3/name/').on('value', function(snapshot) {
+      document.querySelectorAll('#player4Name')[0].innerHTML = snapshot.val()
+    });
+
+    </script>
+
+</head>
+<body>
+
+<div id="top-left-nameplate">
+  <!-- <img src="images/player1.png"/> -->
+  <p class="player-name-left" id="player1Name">Player 1</p>
+  <p class="commander-left" id="player1Commander">Commander 1</p>
+  <p class="life-left" id="player1Life">40</p>
+</div>
+
+<div id="top-right-nameplate">
+  <!-- <img src="images/player2.png"/> -->
+  <p class="player-name-right" id="player2Name">Player 2</p>
+  <p class="commander-right" id="player2Commander">Commander 2</p>
+  <p class="life-right" id="player2Life">40</p>
+</div>
+
+<div id="bottom-left-nameplate">
+  <!-- <img src="images/player3.png"/> -->
+  <p class="player-name-left" id="player3Name">Player 3</p>
+  <p class="commander-left" id="player3Commander">Commander 3</p>
+  <p class="life-left" id="player3Life">40</p>
+</div>
+
+<div id="bottom-right-nameplate">
+  <!-- <img src="images/player4.png"/> -->
+  <p class="player-name-right" id="player4Name">Player 4</p>
+  <p class="commander-right" id="player4Commander">Commander 4</p>
+  <p class="life-right" id="player4Life">40</p>
+</div>
+
+<div id="footer-logo">
+  <img src="images/footer-logo.png" />
+</div>
+
+</body>
+</html>

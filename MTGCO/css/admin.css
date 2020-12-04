@@ -1,0 +1,105 @@
+/* Admin Page CSS */
+
+body {
+  background-color: #333333;
+}
+
+h2 {
+  font-family: 'Bree Serif', serif;
+  font-size: 40px;
+  color: #ffffff;
+  display: inline;
+
+}
+
+a {
+  color: #ffffff;
+}
+
+.lifeTotal {
+  font-size: 40px;
+  text-align: center;
+  font-family: 'Overpass Mono', monospace;
+  color: #ffffff;
+  display: inline-block;
+  float: right;
+}
+
+.buttonRow {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  width: 16%;
+  padding: 10px 10px;
+  font-size: 30px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #ffffff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+}
+
+.button:hover {background-color: #3e8e41}
+
+.button:active {
+  background-color: #3e8e41;
+  transform: translateY(4px);
+}
+
+.red-button {
+  background-color: #D0021B;
+}
+
+.red-button:hover {background-color: #B30216}
+
+.yellow-button {
+  background-color: #F5A623;
+}
+
+.yellow-button:hover {background-color: #CC891D}
+
+.green-button {
+  background-color: #76C720;
+}
+
+.green-button:hover {background-color: #6AB31D}
+
+#content {
+  width: 90%;
+  margin: auto;
+}
+
+#player1 .infoRow {
+  background-color: #D0021B;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#player2 .infoRow {
+  background-color: #76C720;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#player3 .infoRow {
+  background-color: #4A90E2;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+#player4 .infoRow {
+  background-color: #F5A623;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
