@@ -44,7 +44,7 @@ gem 'kramdown-parser-gfm', '~>1.1.0'
 gem 'kramdown', '~> 2.3.0'
 gem 'liquid', '~> 4.0.3'
 gem 'minima', '~> 2.5.1'
-gem 'nokogiri', '~> 1.10.7'
+gem "nokogiri", ">= 1.12.5"
 gem 'rouge', '~> 3.19.0'
 gem 'safe_yaml', '~> 1.0.5'
 gem 'sass', '~> 3.7.4'
