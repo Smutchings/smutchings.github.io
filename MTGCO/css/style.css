@@ -121,7 +121,7 @@ p {
 #footer-logo {
   position: absolute;
   bottom: 0px;
-  left: 0px;
+  left: auto;
   padding: 20px;
   width: auto;
   corner-radius: 100px;
