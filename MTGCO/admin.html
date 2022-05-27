@@ -231,7 +231,7 @@
     <div id="player1">
       <div class="infoRow">
         <h2 id="player1Name" onclick="setPlayer1Info()">Player 1</h2>
-        <span class="lifeTotal" id="player1Life" onclick="setPlayer1Life()">40</span>
+        <span class="lifeTotal" id="player1Life" onclick="setPlayer1Life()">20</span>
       </div>
       <div class="buttonRow">
         <button id="player1minus5" class="button red-button" onclick="player1Life-=5; firebase.database().ref('/players/0/').update({life : player1Life});">-5</button>
@@ -245,7 +245,7 @@
     <div id="player2">
       <div class="infoRow">
         <h2 id="player2Name" onclick="setPlayer2Info()">Player 2</h2>
-        <span class="lifeTotal" id="player2Life" onclick="setPlayer2Life()">40</span>
+        <span class="lifeTotal" id="player2Life" onclick="setPlayer2Life()">20</span>
       </div>
       <div class="buttonRow">
         <button id="player2minus5" class="button red-button" onclick="player2Life-=5; firebase.database().ref('/players/1/').update({life : player2Life});">-5</button>
@@ -259,7 +259,7 @@
     <div id="player3">
       <div class="infoRow">
         <h2 id="player3Name" onclick="setPlayer3Info()">Player 3</h2>
-        <span class="lifeTotal" id="player3Life" onclick="setPlayer3Life()">40</span>
+        <span class="lifeTotal" id="player3Life" onclick="setPlayer3Life()">20</span>
       </div>
       <div class="buttonRow">
         <button id="player3minus5" class="button red-button" onclick="player3Life-=5; firebase.database().ref('/players/2/').update({life : player3Life});">-5</button>
@@ -273,7 +273,7 @@
     <div id="player4">
       <div class="infoRow">
         <h2 id="player4Name" onclick="setPlayer4Info()">Player 4</h2>
-        <span class="lifeTotal" id="player4Life" onclick="setPlayer4Life()">40</span>
+        <span class="lifeTotal" id="player4Life" onclick="setPlayer4Life()">20</span>
       </div>
       <div class="buttonRow">
         <button id="player4minus5" class="button red-button" onclick="player4Life-=5; firebase.database().ref('/players/3/').update({life : player4Life});">-5</button>
