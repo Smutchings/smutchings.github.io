@@ -51,4 +51,4 @@ gem 'safe_yaml', '~> 1.0.5'
 gem 'sass', '~> 3.7.4'
 
 # Theme Gems
-gem 'faraday', '0.17.3'
+gem 'faraday', '2.14.1'
