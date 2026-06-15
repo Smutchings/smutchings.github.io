@@ -6,6 +6,6 @@ source "https://rubygems.org"
 gem 'github-pages'
 
 # Theme Gems
-gem 'faraday', '2.14.1'
+gem "faraday", ">= 2.14.2"
 
 gem "webrick", "~> 1.9"
