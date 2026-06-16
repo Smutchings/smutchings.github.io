@@ -10,11 +10,15 @@ weight: 3
 
 Hi, I am **{{ site.author.name }}**.<br>
 
-I've had many jobs over the last 15 years. From golf course greenskeeper to lead copywriter. But, for the last few years, I've worked hard to become a Designer and Artist, focussing on the human condition.
+I've had a variety of jobs over the last 20 years. From golf course greenskeeper to lead copywriter. But, for the last few years, I've worked hard to become a Designer and Artist, focussing on the human condition.
 
 As a Designer, I believe in the holistic application of the Design Process to understand and resolve problems facing people everyday.
 
 As an Artist, I look to understand the Human condition, and my own existence, through digital and physical art.
+
+I'm currently studying for a MEng in Energy and Sustainability Engineering with the Open University, to better understand the Net Zero Revolution and to continue lifelong learning.
+
+Can often be found playing board games, especially Blood on the Clocktower.
 
 <!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
