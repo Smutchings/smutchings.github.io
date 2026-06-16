@@ -10,7 +10,7 @@ weight: 3
 
 Hi, I am **{{ site.author.name }}**.<br>
 
-I've had a variety of jobs over the last 20 years. From golf course greenskeeper to lead copywriter. But, for the last few years, I've worked hard to become a Designer and Artist, focussing on the human condition.
+I've had a variety of roles over the last 20 years. From golf course greenskeeper to lead copywriter. But, for the last few years, I've worked hard to become a Designer and Artist, focussing on the human condition.
 
 As a Designer, I believe in the holistic application of the Design Process to understand and resolve problems facing people everyday.
 
