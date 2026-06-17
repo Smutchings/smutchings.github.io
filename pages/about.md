@@ -18,7 +18,7 @@ As an Artist, I look to understand the Human condition, and my own existence, th
 
 I'm currently studying for a MEng in Energy and Sustainability Engineering with the Open University, to better understand the Net Zero Revolution and to continue lifelong learning.
 
-Can often be found playing board games, especially Blood on the Clocktower.
+I can often be found playing board games, especially Blood on the Clocktower.
 
 <!-- <div class="row">
 {% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
